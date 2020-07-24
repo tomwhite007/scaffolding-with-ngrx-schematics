@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "scaffoldingWithNgrxSchematics",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "scaffolding-with-ngrx-schematics",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}

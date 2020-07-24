@@ -21,5 +21,13 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "demo-ngrx": {
+      "tags": ["scope:demo-ngrx", "type:app"]
+    },
+    "demo-ngrx-e2e": {
+      "tags": [],
+      "implicitDependencies": ["demo-ngrx"]
+    }
+  }
 }
