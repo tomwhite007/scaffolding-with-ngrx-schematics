@@ -25,7 +25,9 @@
               "apps/demo-ngrx/src/favicon.ico",
               "apps/demo-ngrx/src/assets"
             ],
-            "styles": ["apps/demo-ngrx/src/styles.scss"],
+            "styles": [
+              "apps/demo-ngrx/src/styles.scss"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -83,7 +85,10 @@
               "apps/demo-ngrx/tsconfig.app.json",
               "apps/demo-ngrx/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/demo-ngrx/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/demo-ngrx/**/*"
+            ]
           }
         },
         "test": {
@@ -121,16 +126,20 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": ["apps/demo-ngrx-e2e/tsconfig.e2e.json"],
-            "exclude": ["**/node_modules/**", "!apps/demo-ngrx-e2e/**/*"]
+            "tsConfig": [
+              "apps/demo-ngrx-e2e/tsconfig.e2e.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/demo-ngrx-e2e/**/*"
+            ]
           }
         }
       }
     }
   },
   "cli": {
-    "defaultCollection": "@nrwl/angular",
-    "analytics": "e77eaeb8-a47d-4451-9eb8-cf691fb482da"
+    "defaultCollection": "@ngrx/schematics"
   },
   "schematics": {
     "@nrwl/angular:application": {
